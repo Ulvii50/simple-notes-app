@@ -1,0 +1,65 @@
+[
+    {
+        "id": "a3f1c9d27b04e518",
+        "title": "HTML əsasları",
+        "content": "HTML səhifənin strukturunu yaradır. Hər səhifə doctype, html, head və body hissələrindən ibarətdir. Head-də səhifə haqqında məlumat, body-də isə istifadəçinin gördüyü məzmun yerləşir.",
+        "date": "01-11-2026 | 09:00",
+        "createdAt": 1793512800000
+    },
+    {
+        "id": "b7e20d4a91c35f86",
+        "title": "HTML semantik teqlər",
+        "content": "header, nav, main, section, article və footer teqləri səhifənin hissələrini mənaca ayırır. Bu, həm kodu oxumağı asanlaşdırır, həm də axtarış sistemləri və ekran oxuyucular üçün faydalıdır.",
+        "date": "02-11-2026 | 18:30",
+        "createdAt": 1793633400000
+    },
+    {
+        "id": "c18f5a3e6d2b7094",
+        "title": "CSS Flexbox",
+        "content": "display: flex elementləri bir xətt üzrə düzür. justify-content əsas oxda, align-items isə çarpaz oxda düzülməni idarə edir. gap ilə elementlər arasında boşluq verilir.",
+        "date": "04-11-2026 | 10:15",
+        "createdAt": 1793776500000
+    },
+    {
+        "id": "d49a6b1f0e83c725",
+        "title": "CSS Grid",
+        "content": "grid-template-columns ilə sütunları təyin etmək olur. repeat(auto-fill, minmax(17rem, 1fr)) kartların ekrana görə avtomatik düzülməsini təmin edir. Flexbox bir istiqamətdə, Grid isə həm sətir, həm sütun üzrə işləyir.",
+        "date": "06-11-2026 | 20:00",
+        "createdAt": 1793984400000
+    },
+    {
+        "id": "e5b3d7208a1f94c6",
+        "title": "CSS dəyişənləri",
+        "content": "Rəngləri və ölçüləri :root daxilində --bg, --text kimi dəyişənlərə yazıb var(--bg) ilə istifadə etmək olar. Qaranlıq rejim üçün yalnız dəyişənlərin dəyərini dəyişmək kifayətdir.",
+        "date": "08-11-2026 | 12:30",
+        "createdAt": 1794130200000
+    },
+    {
+        "id": "f62c8e4b13d7a059",
+        "title": "JavaScript massivlər",
+        "content": "map() yeni massiv qaytarır, filter() şərtə uyğun elementləri seçir, sort() isə massivi yerindəcə dəyişir. Ona görə sort-dan əvvəl surət çıxarmaq lazımdır.",
+        "date": "10-11-2026 | 09:45",
+        "createdAt": 1794293100000
+    },
+    {
+        "id": "073d9f5c24e8b1a6",
+        "title": "Fetch və async\/await",
+        "content": "await yalnız async funksiyanın içində işləyir. fetch şəbəkə xətası olanda reject olur, 404 və ya 500 cavabında isə yox, ona görə response.ok yoxlanmalıdır.",
+        "date": "12-11-2026 | 16:20",
+        "createdAt": 1794489600000
+    },
+    {
+        "id": "184e0a6d35f9c2b7",
+        "title": "DOM ilə işləmək",
+        "content": "querySelector ilə element tapılır, createElement ilə yenisi yaradılır, append ilə səhifəyə əlavə olunur. İstifadəçidən gələn mətni yazanda innerHTML əvəzinə textContent işlətmək XSS hücumlarından qoruyur.",
+        "date": "14-11-2026 | 11:00",
+        "createdAt": 1794643200000
+    },
+    {
+        "id": "295f1b7e460a3d88",
+        "title": "PHP və JSON",
+        "content": "json_encode massivi JSON mətninə çevirir, json_decode isə əksinə. JSON_UNESCAPED_UNICODE olmasa, Azərbaycan hərfləri \\uXXXX formasında yazılır. PUT və DELETE sorğularında body-ni php:\/\/input ilə oxumaq lazımdır.",
+        "date": "15-11-2026 | 21:00",
+        "createdAt": 1794765600000
+    }
+]
